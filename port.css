@@ -1,0 +1,423 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+    background:#f5f6fa;
+    overflow-x:hidden;
+}
+
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+    background:white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.navbar h2{
+    font-size:32px;
+    color:#7B5CFF;
+}
+
+.navbar ul{
+    list-style:none;
+    display:flex;
+    gap:25px;
+}
+
+.navbar ul a{
+    text-decoration:none;
+    color:rgb(47,14,47);
+    font-size:17px;
+    font-weight:bold;
+}
+
+.hero{
+    background: lavender;
+    color:gray;
+    padding:60px 80px;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:50px;
+    flex-wrap:wrap;
+}
+
+.content{
+    max-width:600px;
+    text-align:center;
+}
+
+.content h1{
+    font-size:60px;
+    color:#3c3b6e;
+    margin-bottom:20px;
+}
+
+.name{
+    background:linear-gradient(to right,#6a5af9,#8a5cff);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.content p{
+    font-size:20px;
+    line-height:1.6;
+}
+
+button{
+    margin-top:20px;
+    border:none;
+    border-radius:25px;
+    padding:12px 25px;
+    font-size:16px;
+    font-weight:bold;
+    background:#7B5CFF;
+    color:white;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:white;
+    color:#7B5CFF;
+}
+
+.image-box{
+    width:300px;
+    height:300px;
+    border-radius:30px;
+    overflow:hidden;
+}
+
+.image-box img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.grid h3,
+.grid6 h3,
+.content3 h4,
+.subtitle{
+    text-align:center;
+    color:#7B5CFF;
+}
+
+.grid h1,
+.grid6 h1,
+.content3 h2{
+    text-align:center;
+    color:#3c3b6e;
+    margin:20px 0;
+}
+
+.card{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+    padding:50px;
+}
+
+.card1{
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+.card img{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    background:#D9DBE1;
+}
+
+.card h2{
+    margin:20px 0;
+    color:rgb(47,14,47);
+}
+
+.card p{
+    color:#5F6F7F;
+    line-height:1.7;
+    margin-bottom:20px;
+}
+
+.card1 a{
+    text-decoration:none;
+    color:#F39C12;
+    font-weight:bold;
+}
+
+.container2{
+    background:lavender;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:50px;
+    padding:60px 20px;
+    flex-wrap:wrap;
+}
+
+.content2{
+    max-width:550px;
+    text-align:center;
+}
+
+.content2 h2{
+    font-size:32px;
+    color:#3c3b6e;
+    margin-bottom:20px;
+}
+
+.content2 p{
+    color:#5F6F7F;
+    line-height:1.7;
+    margin-bottom:20px;
+}
+
+.skills{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+    padding:50px 20px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+    padding:50px;
+}
+
+.card2{
+    background:white;
+    border-radius:20px;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+.cards img{
+    width:100%;
+    max-width:250px;
+    border-radius:20px;
+}
+
+.cards h2{
+    margin:20px 0;
+}
+
+.cards p{
+    color:#5F6F7F;
+    line-height:1.7;
+    margin-bottom:20px;
+}
+
+.card2 a{
+    text-decoration:none;
+    color:#F39C12;
+    font-weight:bold;
+}
+
+.word{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:10px;
+    margin:20px 0;
+}
+
+.words{
+    background:lavender;
+    color:#7B5CFF;
+    padding:8px 16px;
+    border-radius:20px;
+    font-size:12px;
+}
+
+.container3{
+    background:lavender;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.testimonial{
+    max-width:700px;
+    margin:auto;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    border:1px solid #D9DBE1;
+}
+
+.testimonial p{
+    color:#5F6F7F;
+    line-height:1.8;
+    font-style:italic;
+}
+
+.testimonial img{
+    width:100px;
+    height:100px;
+    margin-top:20px;
+    border-radius:50%;
+}
+
+.contact-section{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.contact-container{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    flex-wrap:wrap;
+}
+
+.contact-info{
+    text-align:left;
+}
+
+.info-box{
+    display:flex;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.info-box i{
+    background:#eae6ff;
+    color:#6c4cf1;
+    padding:15px;
+    border-radius:50%;
+    margin-right:15px;
+}
+
+.contact-form{
+    display:flex;
+    flex-direction:column;
+    width:400px;
+    max-width:100%;
+}
+
+.contact-form input,
+.contact-form textarea{
+    margin-bottom:15px;
+    padding:15px;
+    border:1px solid #ddd;
+    border-radius:8px;
+}
+
+.contact-form textarea{
+    height:120px;
+}
+
+.contact-form button{
+    width:100%;
+}
+
+footer{
+    background:#4b4576;
+    color:#d1cfe2;
+    text-align:center;
+    padding:20px;
+}
+
+footer hr{
+    border:0.5px solid rgba(255,255,255,0.2);
+    margin-bottom:15px;
+}
+
+.scroll-top{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    background:orange;
+    color:white;
+    padding:15px;
+    border-radius:50%;
+    cursor:pointer;
+}
+
+
+@media(max-width:992px){
+
+    .card,
+    .cards{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .content h1{
+        font-size:45px;
+    }
+
+    .navbar{
+        padding:20px 30px;
+    }
+}
+
+@media(max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .navbar ul{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .container,
+    .container2,
+    .contact-container{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .card,
+    .cards{
+        grid-template-columns:1fr;
+        padding:20px;
+    }
+
+    .content h1{
+        font-size:35px;
+    }
+
+    .content p{
+        font-size:16px;
+    }
+
+    .hero{
+        padding:40px 20px;
+        text-align:center;
+    }
+
+    .image-box{
+        width:250px;
+        height:250px;
+    }
+
+    .testimonial{
+        width:100%;
+    }
+
+    .contact-form{
+        width:100%;
+    }
+}
